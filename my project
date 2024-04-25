@@ -1,0 +1,242 @@
+SOFTWARE DEVELOPMENT PRATICES  
+
+ONLINE SHOPPING WEBSITE
+
+
+
+DONE BY
+C.HARRY JOEL
+DEGA DHANUSH
+P.V.MANOJ
+K.DEPPAK RAJ
+M.AAKASH
+
+ 
+1.Introduction
+1.1 Purpose
+1.2 Scope
+1.3 Definitions
+1.3.1 Overview
+1.4 Additional Information
+2.General Description
+3.Functional Requirement
+3.1 Description 
+3.2 Technical Issues
+4.Interface Requirement
+4.1 GUI
+4.2 Hardware Interface
+4.3 Software Interface
+5. Performance Requirements
+6.Design Constraints
+7.Other non-functional requirement
+7.1 Security 
+7.2 Reliability
+7.3 Availability
+7.4 Maintainability
+7.5 Probability
+8.operational Scenario
+9.Preliminary Schedule
+
+
+
+1.Introduction
+    Purpose
+This document is meant to delineate the features of OSS so as to serve as a guide to the developers on one hand and a software validation document for the prospective client on the other. The Online Shopping System (OSS) for furniture shop web applications is intended to provide complete solutions for vendors as well as customers through a single get way using the internet.it will enable vendors to setup online shops, customers to browse through the shop and purchase them online without having to visit the shop physically the administration module will enable a system administrator to approve and reject requests for new shops and maintain various lists of shop category.
+ 1.2 Scope
+For customers there are many types of secure building will be prepaid as debit or credit card, postpaid as after shipping, check or bank draft. The security will provide by the third party like Pay-Pal etc.
+ 3.1.5 Logout
+ After payment or surf the product of the customer will log out.
+ 3.1.6 Report Generation
+After all transaction the system can generate the portable document file(.pdf) and then sent one to the customer's Email address and another one for the system data base to calculate the monthly salary transaction.
+3.2 Technical Issues
+This system will work on client server architecture. It will require an internet server and which will be able to run PHP application. The system should support some commonly used browser such as IE etc.
+4.Interface Requirement
+   various interfaces for the product could be -
+ 1.Login page
+ 2.Registration Form
+ 3.There will be a screen displaying information about that product that the        shop having.
+4.If the customers select the buy button, another screen of shopping cart will be opened. 
+5.After all transaction the system makes the selling report as portable document file(.pdf) and sent to the customer E-mail address.
+4.1 GUI
+1.Login page
+This system allows the customer 's to maintain their cart for add or remove the product over the internet.
+1.3.1 Overview
+this system provides an easy to solution customers to buy the product without go to the shop and also shop owner to sale the product.
+2.General Description
+The Online Shopping System (OSS)application enables vendors to set up online shops, customers to browse through the shops and a system administrator to approve and reject requests for new shops and maintain lists of shop categories also the developer is designing an online shopping site to manage the items int the shop also help customers purchase them online without having to visit the shop physically. The online shopping system will use the internet as the sole method for selling goods to its consumers.
+3.Functional Requirement 
+This section provides requirement overview of the system. Various functional modules that can be implemented by the system will be
+3.1 Description 
+3.1.1 Registration
+If customer wants to buy the products then he/she must be registered, unregistered user can't go to the shopping cart.
+3.1.2. Login 
+Customer logins to the system by entering valid user id and password for the shopping.
+3.1.3 Changes to Cart
+Changes to cart means the customer after login or registration can make order or cancel of the product from the shopping cart.
+3.1.4 Master Maintenance 
+This module consists the information on goods and services. This module consists of information on goods and services. This requires two submodules, Commodity Master and Price Master.
+3.1.5 Product Master
+Product master provides details about a single product, such as product number, object, name, category, product, photos, definition, specifications, requirements on items to be featured on the website. 
+3.1.6 Price master:
+Price Master works with the quality of the goods, discounts applicable to the individual product of the vendor/seller.
+3.1.8 Transactions:
+All transactions carried out on the website will be monitored and handled by this module transactions in the form of ownership of the Shopping Cart.
+3.1.9 Reporting
+This module deals with the management of the report of the whole framework. This comprises three Stock Report of the whole framework. This comprises three Stock Report, Order Report, and Distribution Report sub-modules.
+3.1.10 Order Report 
+Order Report would include the list of items ordered and the description of the consumer who requested the goods, which are not shipped.
+3.1.11 Delivery Report 
+Delivery Reports will produce a list of items that are shipped to consumers.
+3.1.12 Housekeeping Module:
+This module deals with backup for potential comparison and thus reduces the size of the archive.
+3.3 Design constraints
+There are few restrictions that the device has to meet. They are:
+•	Both inputs be reviewed for validation and messages should be issued for erroneous results. Invalid data should be skipped and error messages should be given.
+•	The information given by the vendor during registration should be maintained in the database.
+•	When submitting items to the scheme, the mandatory   fields must be reviewed for validity as to whether the provider has entered the necessary data in these mandatory fields. If this is not the case, the right error message should be shown or the data should be stored in the archive for later retrieval.
+•	Both mandatory fields should be filled in by the customer when ordering products from the cart.
+. Interface Requirement
+Various interfaces for the product could be-
+ 
+1. Login Page2. Registration Form
+ 
+3. There will be a screen displaying information about product that is shopped
+ 
+4. If the customers select the buy button then another screen of shopping cart will be opened.
+ 
+5. After all transaction the system makes the selling report as portable document file (.pdf) and sent to the customer E-mail address
+
+LOGIN PAGE
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+    REGISTRATION FORM                                                           
+
+USER NAME:                                         @shop.com
+PASSWORD:
+RETYPE PASSWORD:
+E MAIL:
+DATE OF BIRTH:
+ADDRESS:
+
+
+CITY:
+CONTACT NO:
+PAY PAL ID:
+                          
+              SUBMIT                             CLEAR
+
+
+
+
+         USERNAME@shop.com                                                   
+                                  PRODUCT PAGE
+      
+    PRODUCT 1              PRODUCT 2
+    VIEW/BUY                VIEW/BUY
+                                                                        PRODUCT
+    PRODUCT 3               PRODUCT 4         CATEGORY
+    VIEW/BUY                 VIEW/BUY
+                                                  
+  
+
+SHOPPING CART  
+
+SR.NO     PRODUCT NAME    QTY     PRICE
+1.	          CHAIR                       2           1000
+2.	          TABLE                       1           6500
+
+   TOTAL AMOUNT: 7500
+    PAY                REMOVE ITEM
+4.2 Hardware Interface The System must run over the internet, all the hardware shall require to connect  internet will be hardware interface for the system. As for e.g. Modem, WAN
+ – 
+ LAN, Ethernet Cross-Cable.
+ 
+4.3 Software Interface
+ 
+The system is on server so it requires the any scripting language like PHP,VBS script etc. The system require Data Base also for the store the any transaction of the system like MYSQL etc. system also require DNS(domain name space) for the naming on the internet. At the last user need web browser for interact with the system.
+5. Performance Requirement
+There is no performance requirement in this system because the server request and response is depended on the end user internet connection.
+ 
+6. Design Constrain
+
+The system shall be built using a standard web page development tool that
+conforms to Microsoft’s GUI standards like HTML, XML etc.
+ 
+7. Other non Functional requirement
+ 
+7.1 Security
+ 
+The system use SSL (secured socket layer) in all transactions that include any confidential customer information.
+ 
+The system must automatically log out all customers after a period of inactivity.
+ 
+The system should not leave any cookies on the customer’s computer containing the user’s password.
+ 
+The system’s back 
+-end servers shall only be accessible to authenticated administrators.
+ 
+Sensitive data will be encrypted before being sent over insecure connections like the internet.
+ 
+7.2 Reliability The system provides storage of all databases on redundant computers with  automatic switchover.
+ 
+The reliability of the overall program depends on the reliability of the separate components. The main pillar of reliability of the system is the backup of the database which is continuously maintained and updated to reflect the most recent changes. Thus the overall stability of the system depends on the stability of container and it sunder lying operating system.
+ 
+7.3 Availability
+ 
+The system should be available at all times, meaning the user can access it using a web browser, only restricted by the down time of the server on which the system runs. In case of a of a hardware failure or database corruption, a replacement page will be shown. Also in case of a hardware failure or database corruption, backups of the database should be retrieved from the server and saved by the administrator .Then the service will be restarted. It means 24 X 7 availability.
+ 
+7.4 Maintainability
+ 
+A commercial database is used for maintaining the database and the application server takes care of the site. In case of a failure, a re-initialization of the program  will be done. Also the software design is being done with modularity in mind so that maintainability can be done efficiently.
+ 
+7.5 Portability The application is HTML and scripting language based. So The end-user part is fully portable and any system using any web browser should be able to use the
+ 
+features of the system, including any hardware platform that is available or will be available in the future.
+ 
+An end-user is use this system on any OS; either it is Windows or Linux.
+ 
+The system shall run on PC, Laptops, and PDA etc.
+ 
+8. Operational Scenario
+ 
+The customer wants to buy item. The system shows all product categories to customer. If customer select item then they listed in shopping cart for buying.
+ 
+The payment will made with credit card or bank check. If customer wants to cancel the order before shipping then he or she can cancel it.
+Customer can see the buying report on account detail.
+Feature of system, including any hardware platform that is available or will be available in the future.
+8.Operational Scenario.
+The customer wants to buy the item. The system will show all product categories to customer. If the customer selects the item then they will see the listed item in the shopping cart for buying. The payment will be made with credit card or bank check. If customer wants to cancel the order before buying then he or she can cancel it. Customer can see the buying report on account detail 9.Preliminary Schedule.
+                                          LOGIN 
+ADMINISTRATION                                       CUSTOMER
+  MANAGEMENT CUSTOMER DATABSE                                                     BROWSE CATEGORY
+
+  VIEW/DETAIL GUEST BOOK ENTRIES                                                        ADD/REMOVE ITEM FROM CART  
+ 
+ ADD/REMOVE/UPGRADE ITEM CATOGORY                                                          PAYMENT
+ 
+APPROVE/REJECT SHOP CREATION REQUEST                                BY CREDIT CARD                BY CHECK
+ 
+SHIPPING ORDER                                                                                                       
+                                             LOG OUT        
+
+                        VISIT SITE                                                                         VIEW ACCOUNT DETAIL 
+                                                                                                                   CANCLE BEFORE SHIPPING
+                                                                                                                    GIVE FEEDBAC VISITOR   
+                                      CREATE NEW ACCOUNT
+                                                 
+
+
+
+
+
